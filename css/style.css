@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
 }
 
 input {
@@ -14,9 +15,28 @@ input {
 button {
   background-color: #5f9341;
   padding: 10px 20px;
-  border: none;
+  border: 1px solid #5f9341;
   color: white;
   font-weight: bold;
   margin-top: 6px;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFNBQVM7RUFDVCxhQUFhO0VBQ2IseUNBQXlDO0FDQzNDOztBREVBO0VBQ0UsV0FBVztFQUNYLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIseUJBQXlCO0FDQzNCOztBREVBO0VBQ0UseUJBQXlCO0VBQ3pCLGtCQUFrQjtFQUNsQixZQUFZO0VBQ1osWUFBWTtFQUNaLGlCQUFpQjtFQUNqQixlQUFlO0FDQ2pCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+
+#delete-btn {
+  background-color: #ffffff;
+  color: #5f9341;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+a {
+  color: #5f9341;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFNBQVM7RUFDVCxhQUFhO0VBQ2IseUNBQXlDO0VBQ3pDLGdCQUFnQjtBQ0NsQjs7QURFQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLHlCQUF5QjtBQ0MzQjs7QURFQTtFQUNFLHlCQUF5QjtFQUN6QixrQkFBa0I7RUFDbEIseUJBQXlCO0VBQ3pCLFlBQVk7RUFDWixpQkFBaUI7RUFDakIsZUFBZTtBQ0NqQjs7QURDQTtFQUNJLHlCQUF5QjtFQUN6QixjQUFjO0FDRWxCOztBRENBO0VBQ0ksZ0JBQWdCO0VBQ2hCLGdCQUFnQjtFQUNoQixlQUFlO0FDRW5COztBRENBO0VBQ0ksZUFBZTtBQ0VuQjs7QURDQTtFQUNJLGNBQWM7QUNFbEIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
